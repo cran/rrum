@@ -4,11 +4,9 @@
 \name{rrum-package}
 \alias{rrum-package}
 \alias{_PACKAGE}
-\title{rrum: Bayesian Estimation of 'RRUM' Model with Gibbs Sampling}
+\title{rrum: Bayesian Estimation of the Reduced Reparameterized Unified Model with Gibbs Sampling}
 \description{
-Implementation of Gibbs sampling algorithm for Bayesian Estimation
-    of the Reduced Reparameterized Unified Model ('RRUM'), described by 
-    Culpepper and Hudson (2017) <doi: 10.1177/0146621617707511>.
+Implementation of Gibbs sampling algorithm for Bayesian Estimation of the Reduced Reparameterized Unified Model ('rrum'), described by Culpepper and Hudson (2017) \doi{ 10.1177/0146621617707511}.
 }
 \details{
 Implemention of a Bayesian estimation for the
@@ -24,13 +22,23 @@ of the generalized NIDA model with Gibbs sampling. Paper presented at the
 annual International Meeting of the Psychometric Society, Asheville, North
 Carolina.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://tmsalab.github.io/rrum/}
+  \item \url{https://github.com/tmsalab/rrum}
+  \item Report bugs at \url{https://github.com/tmsalab/rrum/issues}
+}
+
+}
 \author{
-\strong{Maintainer}: James Joseph Balamuta \email{balamut2@illinois.edu} (0000-0003-2826-8458) [copyright holder]
+\strong{Maintainer}: James Joseph Balamuta \email{balamut2@illinois.edu} (\href{https://orcid.org/0000-0003-2826-8458}{ORCID}) [copyright holder]
 
 Authors:
 \itemize{
-  \item Steven Andrew Culpepper \email{sculpepp@illinois.edu} (0000-0003-4226-6176) [copyright holder]
-  \item Aaron Hudson \email{awhudson@uw.edu} (0000-0002-9731-2224) [copyright holder]
+  \item Steven Andrew Culpepper \email{sculpepp@illinois.edu} (\href{https://orcid.org/0000-0003-4226-6176}{ORCID}) [copyright holder]
+  \item Aaron Hudson \email{awhudson@uw.edu} (\href{https://orcid.org/0000-0002-9731-2224}{ORCID}) [copyright holder]
 }
 
 }
+\keyword{internal}
