@@ -1,16 +1,21 @@
 # rrum 0.2.2
 
+## Changes
+
+- Added explicit dependencies on R (>= 4.3.0), Rcpp (>= 1.1.0), and
+  RcppArmadillo (>= 15.0.2-2)
+- Switched README.Rmd to README.qmd to use Quarto for rendering.
+- Addressed deprecation warning of `"replace conv_to<...>::from(X) with as_scalar(X)"` 
+  by using `arma::as_scalar(...)` instead of `conv_to<double>::from(...)`.
+- Updated GitHub Action workflows.
+
+# rrum 0.2.1
+
 ## Bugfixes
 
 - Addressed two issues in R-devel related to C++ usage (deprecation of `CXX_STD` and attribute compilation woes). ([#15](https://github.com/tmsalab/rrum/issues/15))
 - Changed the format in `CITATION` to use `c()` instead of `as.personList()` and
   switched entries from `citEntry()` to `bibentry()`.
-
-## Deployment
-
-- Updated GitHub Actions for testing, pkgdown, and coverage ([#16](https://github.com/tmsalab/rrum/pull/16)).
-
-# rrum 0.2.1
 
 ## Documentation
 
@@ -19,6 +24,7 @@
 
 ## Deployment
 
+- Updated GitHub Actions for testing, pkgdown, and coverage ([#16](https://github.com/tmsalab/rrum/pull/16)).
 - Changed from Travis-CI to GitHub Actions for R ([#13](https://github.com/tmsalab/rrum/pull/13), [#14](https://github.com/tmsalab/rrum/pull/14))
 
 # rrum 0.2.0
